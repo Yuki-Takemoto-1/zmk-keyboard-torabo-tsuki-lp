@@ -70,21 +70,21 @@
 
         auto_mouse_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans     &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans    &trans     &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1   &mkp MB1  &mkp MB2  &mkp MB5  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans    &trans    &trans    &trans
+&trans  &trans     &trans  &trans    &trans  &trans                  &trans    &trans     &trans    &trans    &trans    &trans
+&trans  &trans     &trans  &trans    &trans  &trans                  &trans    &trans     &trans    &trans    &trans    &trans
+&trans  &kp LCTRL  &trans  &trans    &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1   &mkp MB3  &mkp MB2  &mkp MB5  &trans
+&trans  &kp LSHIFT &trans  &trans    &trans  &trans  &trans  &trans  &trans    &trans     &trans    &trans    &trans    &trans
+&trans  &trans     &trans  &kp LCMD  &trans  &trans  &trans  &trans  &trans    &trans     &trans    &trans    &trans    &trans
             >;
         };
 
         scroll_layer {
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans    &trans    &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans    &trans    &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB5  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
