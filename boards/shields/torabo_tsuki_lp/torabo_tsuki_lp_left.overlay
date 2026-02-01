@@ -1,3 +1,23 @@
 #include "torabo_tsuki_lp.dtsi"
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
+
+&zip_temp_layer {
+    excluded-positions = <
+        25 // a
+        32 // H
+        33 // J
+        34 // K
+        35 // L
+        36 // ;
+        39 // Z
+        55 // LCMD
+    >;
+};
+
+&trackball_listener {
+    input-processors = <
+        &zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)
+        &zip_temp_layer 5 10000
+    >;
+};
