@@ -16,7 +16,7 @@
 
         a {
             bindings = <&kp A>;
-            key-positions = <16 17 18>;
+            key-positions = <33 34 35>;
         };
     };
 

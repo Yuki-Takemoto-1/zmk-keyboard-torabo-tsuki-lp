@@ -4,10 +4,9 @@
 
 &zip_temp_layer {
     excluded-positions = <
-        1
-        10
-        27
-        28
+        33 // J
+        34 // K
+        35 // L
     >;
 };
 
