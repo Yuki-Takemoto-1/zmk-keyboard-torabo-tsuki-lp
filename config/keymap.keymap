@@ -71,10 +71,10 @@
         auto_mouse_layer {
             bindings = <
 &trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &lt 6 BSPC     &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &kp N1  &kp N1  &kp N1     &kp N1     &kp N1                  &kp N1  &kp N1     &kp N1     &kp N1  &kp N1  &trans
+&trans  &kp N1  &kp N1  &kp N1     &kp N1     &kp N1  &kp N1  &kp N1  &kp N1  &kp N1     &kp N1     &kp N1  &kp N1  &kp N1
+&trans  &kp N1  &kp N1  &kp N1     &kp N1     &kp N1  &kp N1  &kp N1  &kp N1  &kp N1     &kp N1     &kp N1  &kp N1  &kp N1
+&trans  &kp N1  &kp N1  &kp N1     &kp N1     &kp N1  &kp N1  &kp N1  &kp N1  &kp N1     &kp N1     &kp N1  &kp N1  &kp N1
             >;
         };
 
