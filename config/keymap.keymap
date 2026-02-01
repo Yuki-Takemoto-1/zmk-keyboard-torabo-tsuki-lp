@@ -13,6 +13,11 @@
             key-positions = <28 29>;
             layers = <2>;
         };
+
+        a {
+            bindings = <&kp A>;
+            key-positions = <16 17 18>;
+        };
     };
 
     keymap {
