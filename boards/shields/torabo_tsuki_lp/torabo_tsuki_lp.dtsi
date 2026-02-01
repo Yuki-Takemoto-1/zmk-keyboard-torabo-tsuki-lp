@@ -103,6 +103,16 @@
     };
 };
 
+&zip_temp_layer {
+    excluded-positions = <
+        32 // H
+        33 // J
+        34 // K
+        35 // L
+        36 // ;
+    >;
+};
+
 &physical_layout_s {
     compatible = "zmk,physical-layout";
     display-name = "S Layout";
