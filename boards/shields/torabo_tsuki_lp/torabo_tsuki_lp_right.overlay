@@ -3,15 +3,15 @@
 #include <dt-bindings/zmk/input_transform.h>
 
 
-// &zip_temp_layer {
-//    excluded-positions = <
-//        32 // H
-//        33 // J
-//        34 // K
-//        35 // L
-//        36 // ;
-//    >;
-//};
+&zip_temp_layer {
+    excluded-positions = <
+        32 // H
+        33 // J
+        34 // K
+        35 // L
+        36 // ;
+    >;
+};
 
 &trackball_listener {
     input-processors = <
