@@ -39,6 +39,12 @@
             key-positions = <34 35>;
             layers = <0>;
         };
+
+        mouse_gesture {
+            bindings = <&mouse_gesture>;
+            key-positions = <33 34>;
+            layers = <5 6>;
+        };
     };
 
     keymap {
@@ -98,7 +104,7 @@
             bindings = <
 &trans  &trans      &trans  &trans    &trans  &trans                  &trans    &trans    &trans    &trans    &trans    &trans
 &trans  &trans      &trans  &trans    &trans  &trans                  &trans    &trans    &trans    &trans    &trans    &trans
-&trans  &kp LCTRL   &trans  &trans    &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB3  &mouse_gesture_mkp 0 MB2  &mkp MB5  &trans
+&trans  &kp LCTRL   &trans  &trans    &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB5  &trans
 &trans  &kp LSHIFT  &trans  &trans    &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans    &trans
 &trans  &trans      &trans  &kp LCMD  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans    &trans
             >;
