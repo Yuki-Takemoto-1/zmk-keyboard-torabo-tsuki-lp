@@ -4,6 +4,8 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
+#include <mouse-gesture.dtsi>
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -96,7 +98,7 @@
             bindings = <
 &trans  &trans      &trans  &trans    &trans  &trans                  &trans    &trans    &trans    &trans    &trans    &trans
 &trans  &trans      &trans  &trans    &trans  &trans                  &trans    &trans    &trans    &trans    &trans    &trans
-&trans  &kp LCTRL   &trans  &trans    &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB5  &trans
+&trans  &kp LCTRL   &trans  &trans    &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB3  &mouse_gesture_mkp 0 MB2  &mkp MB5  &trans
 &trans  &kp LSHIFT  &trans  &trans    &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans    &trans
 &trans  &trans      &trans  &kp LCMD  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans    &trans
             >;
