@@ -115,3 +115,28 @@
         };
     };
 };
+
+&zip_mouse_gesture {
+    stroke-size = <200>; // Optional (default: 200)
+    enable-eager-mode; // Optional, but recommended
+
+    desktop_forward {
+        pattern = <GESTURE_RIGHT>;
+        bindings = <&kp LC(RIGHT)>;
+    };
+
+    desktop_backward {
+        pattern = <GESTURE_LEFT>;
+        bindings = <&kp LC(LEFT)>;
+    };
+
+    desktop_show_open {
+        pattern = <GESTURE_UP>;
+        bindings = <&kp LC(UP)>;
+    };
+
+    desktop_show_close {
+        pattern = <GESTURE_DOWN>;
+        bindings = <&kp LC(DOWN)>;
+    };
+};
