@@ -5,6 +5,7 @@
 #include <mouse-gesture.dtsi>
 
 &zip_temp_layer {
+    require-prior-idle-ms = <350>;
     excluded-positions = <
         25 // a
         32 // H
