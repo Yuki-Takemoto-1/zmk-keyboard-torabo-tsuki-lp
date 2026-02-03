@@ -43,7 +43,7 @@
         mouse_gesture {
             bindings = <&mouse_gesture>;
             key-positions = <33 34>;
-            layers = <5 6>;
+            layers = <5>;
         };
     };
 
