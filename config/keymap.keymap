@@ -10,8 +10,38 @@
 
         bt_clear {
             bindings = <&bt BT_CLR>;
-            key-positions = <28 29>;
-            layers = <2>;
+            key-positions = <32 33>;
+            layers = <4>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <27 26>;
+            layers = <0>;
+        };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <14 15>;
+            layers = <0>;
+        };
+
+        japanese {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <40 41>;
+            layers = <0>;
+        };
+
+        english {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <48 49>;
+            layers = <0>;
+        };
+
+        del {
+            bindings = <&kp DEL>;
+            key-positions = <34 35>;
+            layers = <0>;
         };
     };
 
@@ -20,11 +50,11 @@
 
         layer_0 {
             bindings = <
-&none  &none             &none     &none     &none      &none                                            &none               &none     &none      &none     &none                 &none
-&none  &kp Q             &kp W     &kp E     &kp R      &kp T                                            &kp Y               &kp U     &kp I      &kp O     &kp P                 &none
-&none  &mt LCTRL A       &kp S     &kp D     &kp F      &kp G        &none             &none             &kp H               &kp J     &kp K      &kp L     &mt RCTRL ENTER       &none
-&none  &mt LEFT_SHIFT Z  &kp X     &kp C     &kp V      &kp B        &kp SPACE         &kp RET           &kp N               &kp M     &kp COMMA  &kp DOT   &mt RIGHT_SHIFT FSLH  &none
-&none  &kp LCTRL         &kp LGUI  &kp LALT  &lt 1 TAB  &lt 2 SPACE  &lt 6 LANGUAGE_1  &lt 3 LANGUAGE_2  &mt RCMD BACKSPACE  &kp BSPC  &kp RALT   &kp RGUI  &kp RCTRL             &none
+&none  &none             &none     &none     &none      &none                                            &none               &none  &none      &none     &none                 &none
+&none  &kp Q             &kp W     &kp E     &kp R      &kp T                                            &kp Y               &kp U  &kp I      &kp O     &kp P                 &none
+&none  &mt LCTRL A       &kp S     &kp D     &kp F      &kp G        &none             &none             &kp H               &kp J  &kp K      &kp L     &mt RCTRL ENTER       &none
+&none  &mt LEFT_SHIFT Z  &kp X     &kp C     &kp V      &kp B        &kp SPACE         &kp RET           &kp N               &kp M  &kp COMMA  &kp DOT   &mt RIGHT_SHIFT FSLH  &none
+&none  &kp LCTRL         &kp LGUI  &kp LALT  &lt 1 TAB  &lt 2 SPACE  &lt 6 LANGUAGE_1  &lt 3 LANGUAGE_2  &mt RCMD BACKSPACE  &none  &none      &kp RGUI  &kp RCTRL             &none
             >;
         };
 
@@ -58,13 +88,13 @@
             >;
         };
 
-        layer_4 {
+        bluetooth_layer {
             bindings = <
-&trans  &trans        &trans          &trans        &trans        &trans                        &trans            &trans     &trans         &trans     &trans      &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &kp HOME          &kp PG_UP  &kp PAGE_DOWN  &kp END    &kp ESCAPE  &trans
-&trans  &bt BT_CLR    &bt BT_CLR_ALL  &none         &none         &none         &trans  &trans  &kp LEFT          &kp DOWN   &kp UP_ARROW   &kp RIGHT  &kp TAB     &trans
-&trans  &none         &none           &none         &none         &none         &trans  &trans  &kp SINGLE_QUOTE  &kp DQT    &kp GRAVE      &kp TILDE  &kp PIPE    &trans
-&trans  &trans        &trans          &trans        &trans        &trans        &trans  &trans  &trans            &trans     &trans         &trans     &trans      &trans
+&trans  &trans        &trans        &trans        &trans        &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &none         &none         &none         &none         &none                         &none   &none   &none   &none   &none   &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &none   &none   &none   &none   &none   &trans
+&trans  &none         &none         &none         &none         &none         &trans  &trans  &none   &none   &none   &none   &none   &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
