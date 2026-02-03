@@ -2,8 +2,10 @@
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 
+#include <mouse-gesture.dtsi>
 
 &zip_temp_layer {
+    require-prior-idle-ms = <350>;
     excluded-positions = <
         25 // a
         32 // H
@@ -20,12 +22,13 @@
     input-processors = <
         &zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)
         &zip_temp_layer 5 10000
+        &zip_mouse_gesture
     >;
     scroller {
         layers = <6>;
         input-processors = <
             &zip_xy_to_scroll_mapper
-            &zip_scroll_scaler 1 4
+            &zip_scroll_scaler 1 8
         >;
     };
 };

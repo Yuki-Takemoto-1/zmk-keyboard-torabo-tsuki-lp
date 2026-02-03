@@ -4,6 +4,8 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
+#include <mouse-gesture.dtsi>
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -36,6 +38,12 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <34 35>;
             layers = <0>;
+        };
+
+        mouse_gesture {
+            bindings = <&mouse_gesture>;
+            key-positions = <33 34>;
+            layers = <5>;
         };
     };
 
@@ -111,5 +119,30 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
+    };
+};
+
+&zip_mouse_gesture {
+    stroke-size = <200>; // Optional (default: 200)
+    enable-eager-mode; // Optional, but recommended
+
+    desktop_forward {
+        pattern = <GESTURE_RIGHT>;
+        bindings = <&kp LC(RIGHT)>;
+    };
+
+    desktop_backward {
+        pattern = <GESTURE_LEFT>;
+        bindings = <&kp LC(LEFT)>;
+    };
+
+    desktop_show_open {
+        pattern = <GESTURE_UP>;
+        bindings = <&kp LC(UP)>;
+    };
+
+    desktop_show_close {
+        pattern = <GESTURE_DOWN>;
+        bindings = <&kp LC(DOWN)>;
     };
 };
