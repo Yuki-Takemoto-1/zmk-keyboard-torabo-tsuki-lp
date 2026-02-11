@@ -45,13 +45,13 @@
         mouse_button_4 {
             bindings = <&mkp MB4>;
             key-positions = <33 34>;
-            layers = <5, 6>;
+            layers = <5 6>;
         };
 
         mouse_button_5 {
             bindings = <&mkp MB5>;
             key-positions = <34 35>;
-            layers = <5, 6>;
+            layers = <5 6>;
         };
     };
 
