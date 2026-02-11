@@ -72,7 +72,7 @@
             bindings = <
 &trans  &trans             &trans          &trans              &trans                &trans                       &trans          &trans                         &trans                     &trans                   &trans                 &trans
 &trans  &kp EXCLAMATION    &kp AT_SIGN     &kp HASH            &kp DOLLAR            &kp PERCENT                  &kp CARET       &kp AMPERSAND                  &kp ASTERISK               &kp LEFT_PARENTHESIS     &kp RIGHT_PARENTHESIS  &trans
-&none  　&hmr_l LCTRL N1    &hmr_l LCMD N2  &hmr_l LEFT_ALT N3  &hmr_l LEFT_SHIFT N4  &kp N5       &trans  &trans  &kp LEFT_ARROW  &hmr_r RIGHT_SHIFT DOWN_ARROW  &hmr_r RIGHT_ALT UP_ARROW  &hmr_r RCMD RIGHT_ARROW  &trans                 &trans
+&trans  &hmr_l LCTRL N1    &hmr_l LCMD N2  &hmr_l LEFT_ALT N3  &hmr_l LEFT_SHIFT N4  &kp N5       &trans  &trans  &kp LEFT_ARROW  &hmr_r RIGHT_SHIFT DOWN_ARROW  &hmr_r RIGHT_ALT UP_ARROW  &hmr_r RCMD RIGHT_ARROW  &trans                 &trans
 &trans  &kp N6             &kp N7          &kp N8              &kp N9                &kp N0       &trans  &trans  &kp MINUS       &kp EQUAL                      &trans                     &trans                   &trans                 &trans
 &trans  &trans             &trans          &trans              &trans                &trans       &trans  &trans  &trans          &trans                         &trans                     &trans                   &trans                 &trans
             >;
@@ -82,7 +82,7 @@
             bindings = <
 &trans  &trans             &trans          &trans              &trans                &trans                      &trans             &trans                    &trans                             &trans                         &trans      &trans
 &trans  &kp F1             &kp F2          &kp F3              &kp F4                &kp F5                      &kp PIPE           &kp BACKSLASH             &kp LEFT_BRACE                     &kp RIGHT_BRACE                &kp ESCAPE  &trans
-&none  　&hmr_l LCTRL F6    &hmr_l LCMD F7  &hmr_l LEFT_ALT F8  &hmr_l LEFT_SHIFT F9  &kp F10     &trans  &trans  &kp DOUBLE_QUOTES  &hmr_r RIGHT_SHIFT TILDE  &hmr_r RIGHT_ALT LEFT_PARENTHESIS  &hmr_r RCMD RIGHT_PARENTHESIS  &trans      &trans
+&trans  &hmr_l LCTRL F6    &hmr_l LCMD F7  &hmr_l LEFT_ALT F8  &hmr_l LEFT_SHIFT F9  &kp F10     &trans  &trans  &kp DOUBLE_QUOTES  &hmr_r RIGHT_SHIFT TILDE  &hmr_r RIGHT_ALT LEFT_PARENTHESIS  &hmr_r RCMD RIGHT_PARENTHESIS  &trans      &trans
 &trans  &kp F11            &kp F12         &out OUT_USB        &out OUT_BLE          &bt BT_NXT  &trans  &trans  &kp SINGLE_QUOTE   &kp GRAVE                 &kp LEFT_BRACKET                   &kp RIGHT_BRACKET              &trans      &trans
 &trans  &trans             &trans          &trans              &trans                &trans      &trans  &trans  &trans             &trans                    &trans                             &trans                         &trans      &trans
             >;
@@ -92,7 +92,7 @@
             bindings = <
 &trans  &trans             &trans          &trans              &trans                &trans                      &trans             &trans                    &trans                             &trans                         &trans      &trans
 &trans  &kp F1             &kp F2          &kp F3              &kp F4                &kp F5                      &kp PIPE           &kp BACKSLASH             &kp LEFT_BRACE                     &kp RIGHT_BRACE                &kp ESCAPE  &trans
-&none  　&hmr_l LCTRL F6    &hmr_l LCMD F7  &hmr_l LEFT_ALT F8  &hmr_l LEFT_SHIFT F9  &kp F10     &trans  &trans  &kp DOUBLE_QUOTES  &hmr_r RIGHT_SHIFT TILDE  &hmr_r RIGHT_ALT LEFT_PARENTHESIS  &hmr_r RCMD RIGHT_PARENTHESIS  &trans      &trans
+&trans  &hmr_l LCTRL F6    &hmr_l LCMD F7  &hmr_l LEFT_ALT F8  &hmr_l LEFT_SHIFT F9  &kp F10     &trans  &trans  &kp DOUBLE_QUOTES  &hmr_r RIGHT_SHIFT TILDE  &hmr_r RIGHT_ALT LEFT_PARENTHESIS  &hmr_r RCMD RIGHT_PARENTHESIS  &trans      &trans
 &trans  &kp F11            &kp F12         &out OUT_USB        &out OUT_BLE          &bt BT_NXT  &trans  &trans  &kp SINGLE_QUOTE   &kp GRAVE                 &kp LEFT_BRACKET                   &kp RIGHT_BRACKET              &trans      &trans
 &trans  &trans             &trans          &trans              &trans                &trans      &trans  &trans  &trans             &trans                    &trans                             &trans                         &trans      &trans
             >;
