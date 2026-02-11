@@ -8,7 +8,6 @@
     require-prior-idle-ms = <350>;
     excluded-positions = <
         25 // a
-        32 // H
         33 // J
         34 // K
         35 // L
@@ -27,8 +26,11 @@
     scroller {
         layers = <6>;
         input-processors = <
+            &zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)
+            &zip_mouse_gesture
             &zip_xy_to_scroll_mapper
-            &zip_scroll_scaler 1 8
+            &zip_scroll_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)
+            &zip_scroll_scaler 1 16
         >;
     };
 };
