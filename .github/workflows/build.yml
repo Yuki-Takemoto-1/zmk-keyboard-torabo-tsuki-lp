@@ -1,5 +1,7 @@
 name: Build ZMK firmware
-on: 
+run-name: Build ZMK firmware for Torabo Tsuki LP
+
+on:
   push:
     branches: ["master"]
   pull_request:
