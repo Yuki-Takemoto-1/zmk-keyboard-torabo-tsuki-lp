@@ -67,7 +67,7 @@
 
         layer_2 {
             bindings = <
-&trans  &trans             &trans          &trans              &trans                &trans                      &trans　　　　　　　　　　　　　&trans　　　　　　　　　　　　　　　　　　　　&trans　　　　　　　　　　　　　　　　　　　&trans　　　　　　　　　　　　　　　　　　&trans　　　　　　　　　　　　　　　　　　　　&trans
+&trans  &trans　　　　　　　　　　　　　&trans　　　　　　　　　　&trans　　　　　　　　　　　　　　&trans　　　　　　　　　　　　　　　　&trans　　　　　　　　　　　　　　　　　　　　　　&trans　　　　　　　　　　　　　&trans　　　　　　　　　　　　　　　　　　　　&trans　　　　　　　　　　　　　　　　　　　&trans　　　　　　　　　　　　　　　　　　&trans　　　　　　　　　　　　　　　　　　　　&trans
 &trans  &kp F1             &kp F2          &kp F3              &kp F4                &kp F5                      &kp PIPE           &kp BACKSLASH             &kp PLUS                 &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  　　　&trans
 &trans  &hmr_l LCTRL F6    &hmr_l LCMD F7  &hmr_l LEFT_ALT F8  &hmr_l LEFT_SHIFT F9  &kp F10     &trans  &trans  &kp DOUBLE_QUOTES  &hmr_r RIGHT_SHIFT TILDE  &hmr_r RIGHT_ALT MINUS   &hmr_r RCMD LEFT_BRACE  &hmr_r RCTRL RIGHT_BRACE  &trans
 &trans  &kp F11            &kp F12　　　　　　　　　&kp ASTERISK　　　　　　　　&kp PARCENT　　　　　　　　　　　&bt SLASH　　　&trans  &trans  &kp SINGLE_QUOTE　　　&kp GRAVE　　　　　　　　　　　　　　　　　&kp UNDERSCORE　　　　　　　　　　　&kp LEFT_BRACKET　　　　　　　　&kp RIGHT_BRACKET　　　　　　　　　&trans
@@ -77,7 +77,7 @@
 
         layer_3 {
             bindings = <
-&trans  &trans             &trans          &trans              &trans                &trans                      &trans             &trans                    &trans                   &trans                  &trans                 　　　&trans
+&trans  &trans　　　　　　　　　　　　　&trans　　　　　　　　　　&trans　　　　　　　　　　　　　　&trans　　　　　　　　　　　　　　　　&trans　　　　　　　　　　　　　　　　　　　　　　&trans　　　　　　　　　　　　　&trans　　　　　　　　　　　　　　　　　　　　&trans　　　　　　　　　　　　　　　　　　　&trans　　　　　　　　　　　　　　　　　　&trans　　　　　　　　　　　　　　　　　　　　&trans
 &trans  &kp F1             &kp F2          &kp F3              &kp F4                &kp F5                      &kp PIPE           &kp BACKSLASH             &kp PLUS                 &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  　　　&trans
 &trans  &hmr_l LCTRL F6    &hmr_l LCMD F7  &hmr_l LEFT_ALT F8  &hmr_l LEFT_SHIFT F9  &kp F10     &trans  &trans  &kp DOUBLE_QUOTES  &hmr_r RIGHT_SHIFT TILDE  &hmr_r RIGHT_ALT MINUS   &hmr_r RCMD LEFT_BRACE  &hmr_r RCTRL RIGHT_BRACE  &trans
 &trans  &kp F11            &kp F12　　　　　　　　　&kp ASTERISK　　　　　　　　&kp PARCENT　　　　　　　　　　　&bt SLASH　　　&trans  &trans  &kp SINGLE_QUOTE　　　&kp GRAVE　　　　　　　　　　　　　　　　　&kp UNDERSCORE　　　　　　　　　　　&kp LEFT_BRACKET　　　　　　　　&kp RIGHT_BRACKET　　　　　　　　　&trans
