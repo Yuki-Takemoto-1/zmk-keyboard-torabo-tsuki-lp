@@ -122,12 +122,12 @@
     enable-eager-mode; // Optional, but recommended
 
     desktop_forward {
-        pattern = <GESTURE_RIGHT>;
+        pattern = <GESTURE_LEFT>;
         bindings = <&kp LC(RIGHT)>;
     };
 
     desktop_backward {
-        pattern = <GESTURE_LEFT>;
+        pattern = <GESTURE_RIGHT>;
         bindings = <&kp LC(LEFT)>;
     };
 
